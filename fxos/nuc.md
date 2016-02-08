@@ -1,63 +1,48 @@
 ### fxos on an intel nuc (the very first steps)
 
-My goal is to build a Firefox OS TV set-top box based on an Intel NUC or an
-Intel Compute Stick. As a first proof of concept I started to scramble something
-like a real **boot to gecko** together. I started to look how the connection
-between [gecko](https://developer.mozilla.org/docs/Mozilla/Gecko) and
-[gonk](https://developer.mozilla.org/docs/Mozilla/Firefox_OS/Platform/Gonk)
-looks like. Especially, the basic display/window
-[code](https://github.com/mozilla/gecko-dev/tree/master/widget/gonk). But, I'm
-way to new in those areas of gecko and luckily I found a shortcut to start with.
+My goal is to build a Firefox OS TV set-top box based on an Intel NUC or an Intel Compute Stick. As a first proof of concept I started to scramble something like a real **boot to gecko** together. I started to look how the connection between [gecko](https://developer.mozilla.org/docs/Mozilla/Gecko) and [gonk](https://developer.mozilla.org/docs/Mozilla/Firefox_OS/Platform/Gonk) looks like. Especially, the basic display/window [code](https://github.com/mozilla/gecko-dev/tree/master/widget/gonk). But, I'm way to new in those areas of gecko and luckily I found a shortcut to start with.
 
 #### KISS (keep it simple stupid), for now
 
-So let's take a step back. I remembered that b2g is a normal application target
-when you build mozilla-central (`--enable-application=b2g`).
-So we can just build it based on GTK3 instead of gonk. Sure, a lot of
-functionality will be missing but let's see. And as mentioned in the title, this
-is only a first step.
+So let's take a step back. I remembered that b2g is a normal application target when you build mozilla-central (`--enable-application=b2g`). So we can just build it based on GTK3 instead of gonk. Sure, a lot of functionality will be missing but let's see. And as mentioned in the title, this is only a first step.
 
 #### NUC
 
-Hardware:
-[Intel NUC NUC5PPYH](http://www.intel.com/content/www/us/en/nuc/nuc-kit-nuc5ppyh.html)
+Hardware: [Intel NUC NUC5PPYH](http://www.intel.com/content/www/us/en/nuc/nuc-kit-nuc5ppyh.html)
 
 Base specs:
-* Intel Pentium processor N3700
-* 4GB DDR3L RAM
-* Intel HD Graphics
-* Intel SSD 320 Series 40GB
+
+- Intel Pentium processor N3700
+- 4GB DDR3L RAM
+- Intel HD Graphics
+- Intel SSD 320 Series 40GB
 
 ![](https://raw.githubusercontent.com/fiji-flo/mozilla-berlin/master/fxos/nuc.jpg)
 
 #### The Plan
 
 Super simple:
-* install a minimal Linux ([Arch](https://archlinux.org) is my weapon of choice)
-* build b2g (build mozilla-central with `--enable-application=b2g`)
-* build
+
+- install a minimal Linux ([Arch](https://archlinux.org) is my weapon of choice)
+- build b2g (build mozilla-central with `--enable-application=b2g`)
+- build
 [gaia](https://developer.mozilla.org/docs/Mozilla/Firefox_OS/Platform/Gaia)
 with (`GAIA_DEVICE_TYPE=tv`)
-* boot directly in to b2g running gaia in full screen
-* see what it looks like
+- boot directly in to b2g running gaia in full screen
+- see what it looks like
 
 #### Let's do this
 
 ##### setting up an arch installation
 
-Even after countless installations of arch I still prefer to use their
-[beginner's guide](https://wiki.archlinux.org/index.php/Beginners'_guide). Don't
-get scared, this is totally doable. Just don't try to be a smart ass and start
-skipping steps :).
+Even after countless installations of arch I still prefer to use their [beginner's guide](https://wiki.archlinux.org/index.php/Beginners'_guide). Don't get scared, this is totally doable. Just don't try to be a smart ass and start skipping steps :).
 
 Some tips on this would be:
-* use `GPT` as partitioning scheme (it's 2016)
-* from some reason I needed to boot the installation usb drive in legacy (BIOS)
-mode (you can still use the UEFI boot loader)
-* a [usb stick](https://www.sandisk.com/home/usb-flash/extreme-usb) with >190
-MB/s will change your life
-* I did a simply partition layout: `512MB EFI, 4GB swap, 30GB /` some swap comes
-in handy, since we're gonna build mozilla-central on this thing!
+
+- use `GPT` as partitioning scheme (it's 2016)
+- from some reason I needed to boot the installation usb drive in legacy (BIOS) mode (you can still use the UEFI boot loader)
+- a [usb stick](https://www.sandisk.com/home/usb-flash/extreme-usb) with >190 MB/s will change your life
+- I did a simply partition layout: `512MB EFI, 4GB swap, 30GB /` some swap comes in handy, since we're gonna build mozilla-central on this thing!
 
 Go ahead an do this, come back when you reach the **Post-installation** step.
 
@@ -67,8 +52,7 @@ First get the network back up. In case you're on wifi:
 ```
 wifi-menu -o
 ```
-save it with a nice name like `my-super-profile` and make it connect
-automatically:
+save it with a nice name like `my-super-profile` and make it connect automatically:
 ```
 netctl enable my-super-profile`
 ```
@@ -104,8 +88,7 @@ then you can ssh in your NUC by:
 ```
 ssh fxos@<IP>
 ```
-from your machine (checkout [MobaXterm](http://mobaxterm.mobatek.net/)
-if you're on Windows)
+from your machine (checkout [MobaXterm](http://mobaxterm.mobatek.net/) if you're on Windows)
 
 ##### prepare for gecko
 
@@ -173,8 +156,7 @@ So much for preparation.
 
 ##### building gecko
 
-First of all we clone the git repo (feel free to use mozilla-central or a source
-snapshot if you know what you're doing):
+First of all we clone the git repo (feel free to use mozilla-central or a source snapshot if you know what you're doing):
 ```
 git clone https://git.mozilla.org/integration/gecko-dev.git
 ```
@@ -182,8 +164,7 @@ Step inside:
 ```
 cd gecko-dev
 ```
-Substitute `editor` with your favorite or least hated editor like `vi` or `nano`
-and create a config file named `.mozconfig`:
+Substitute `editor` with your favorite or least hated editor like `vi` or `nano` and create a config file named `.mozconfig`:
 ```
 editor .mozconfig
 ```
@@ -236,8 +217,7 @@ That's it with compiling stuff.
 
 ##### some runtime stuff
 
-Let's install some things to prepare out final step. Some of them might not be
-needed anymore. I'll remove them, once I confirmed that. But for now do:
+Let's install some things to prepare out final step. Some of them might not be needed anymore. I'll remove them, once I confirmed that. But for now do:
 ```
 sudo pacman -S nodejs npm xorg-server xorg-utils xf86-video-intel xorg-xinit ttf-dejavu pulseaudio pulseaudio-alsa pavucontrol
 ```
@@ -252,8 +232,7 @@ Enter a number (default=1): 2
 
 #### Booting into Gecko!
 
-In order to boot into gecko aka start b2g in full screen we need bring up an
-xserver on login. Therefore, edit the `~/bash_profile`:
+In order to boot into gecko aka start b2g in full screen we need bring up an xserver on login. Therefore, edit the `~/bash_profile`:
 ```
 editor ~/.bash_profile
 ```
@@ -273,8 +252,7 @@ ExecStart=
 ExecStart=-/usr/bin/agetty --autologin fxos --noclear %I $TERM
 ```
 
-The final step is to automatically start b2g in full screen. Edit the `.xinit`
-file:
+The final step is to automatically start b2g in full screen. Edit the `.xinit` file:
 ```
 editor ~/.xinitrc
 ```
@@ -285,33 +263,31 @@ pactl set-card-profile 0 output:hdmi-stereo+input:analog-stereo &
 # start b2g and debug server
 exec /home/fxos/gecko-dev/obj-x86_64-unknown-linux-gnu/dist/bin/b2g --profile /home/fxos/gaia/profile -screen 1919x1080 -start-debugger-server 6000
 ```
-Sadly the `1919x1080` is not a typo. `1921x1080` works also if you want to see
-what happens if you use `1920x1080` go ahead and give it a shot :)
+Sadly the `1919x1080` is not a typo. `1921x1080` works also if you want to see what happens if you use `1920x1080` go ahead and give it a shot :)
 
 **Reboot** and it should look like this:
-![](https://raw.githubusercontent.com/fiji-flo/mozilla-berlin/master/fxos/fxosnuc.jpg)
+![](https://raw.githubusercontent.com/fiji-flo/mozilla-berlin/master/fxos/nuc.jpg)
 
 #### Where to go from here (remember, this was just a first step)
 
-There are many problems with this quick and dirty boot to gecko hack. But this
-give us a lot to work on. Here are some nice next steps, some of them might be
-just a config change:
-* figure out why the performance is so bad in this setup
-* enable access to wifi, bluetooth, volume, ...
-* fill the settings menu with life
-* enable the real market place
-* make it work with an xbox/steam controller
+There are many problems with this quick and dirty boot to gecko hack. But this give us a lot to work on. Here are some nice next steps, some of them might be just a config change:
+
+- figure out why the performance is so bad in this setup
+- enable access to wifi, bluetooth, volume, ...
+- fill the settings menu with life
+- enable the real market place
+- make it work with an xbox/steam controller
 
 And the bigger things:
-* remove the need for X => make it work with wayland
-* even remove the need for GTK3
-* get feature parity with gonk based build without depending on Android
-* cross compile it the raspberry pi 2
+
+- remove the need for X => make it work with wayland
+- even remove the need for GTK3
+- get feature parity with gonk based build without depending on Android
+- cross compile it the raspberry pi 2
 
 #### Known Issues
 
-For some reason remote debugging with WebIDE does not work as I would expect.
-If I forward the port it works nicely:
+For some reason remote debugging with WebIDE does not work as I would expect. If I forward the port it works nicely:
 ```
 ssh -L 6000:localhost:6000 fxos@<IP>
 ```
@@ -319,8 +295,4 @@ probably just some settings.
 
 I'm still working through all settings in gaia and b2g. There's a log to learn.
 
-*There is much more to write but it's getting late and I'm getting tired.
-I will keep updating this article and/or write more on this topic. If you have
-feedback please make a pull request for
-https://github.com/fiji-flo/mozilla-berlin/blob/master/fxos/nuc.md
-*
+*There is much more to write but it's getting late and I'm getting tired. I will keep updating this article and/or write more on this topic. If you have feedback please make a pull request for https://github.com/fiji-flo/mozilla-berlin/blob/master/fxos/nuc.md *
