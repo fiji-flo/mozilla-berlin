@@ -28,7 +28,7 @@ Base specs:
 * Intel HD Graphics
 * Intel SSD 320 Series 40GB
 
-![](nuc.jpg)
+![](https://raw.githubusercontent.com/fiji-flo/mozilla-berlin/master/fxos/nuc.jpg)
 
 #### The Plan
 
@@ -289,7 +289,7 @@ Sadly the `1919x1080` is not a typo. `1921x1080` works also if you want to see
 what happens if you use `1920x1080` go ahead and give it a shot :)
 
 **Reboot** and it should look like this:
-![](fxosnuc.jpg)
+![](https://raw.githubusercontent.com/fiji-flo/mozilla-berlin/master/fxos/nuc.jpg)
 
 #### Where to go from here (remember, this was just a first step)
 
@@ -318,3 +318,9 @@ ssh -L 6000:localhost:6000 fxos@<IP>
 probably just some settings.
 
 I'm still working through all settings in gaia and b2g. There's a log to learn.
+
+*There is much more to write but it's getting late and I'm getting tired.
+I will keep updating this article and/or write more on this topic. If you have
+feedback please make a pull request for
+https://github.com/fiji-flo/mozilla-berlin/blob/master/fxos/nuc.md
+*
