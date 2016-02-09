@@ -266,7 +266,7 @@ exec /home/fxos/gecko-dev/obj-x86_64-unknown-linux-gnu/dist/bin/b2g --profile /h
 Sadly the `1919x1080` is not a typo. `1921x1080` works also if you want to see what happens if you use `1920x1080` go ahead and give it a shot :)
 
 **Reboot** and it should look like this:
-![](https://raw.githubusercontent.com/fiji-flo/mozilla-berlin/master/fxos/nuc.jpg)
+![](https://raw.githubusercontent.com/fiji-flo/mozilla-berlin/master/fxos/fxosnuc.jpg)
 
 #### Where to go from here (remember, this was just a first step)
 
