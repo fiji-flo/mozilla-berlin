@@ -173,7 +173,7 @@ Now paste the following configuration:
 ```
 . "$topsrcdir/b2g/config/mozconfigs/common"
 
-mk_add_options MOZ_MAKE_FLAGS="-j4 -s"
+mk_add_options MOZ_MAKE_FLAGS="-j$((`nproc`)) -s"
 
 ac_add_options --enable-application=b2g
 ac_add_options --disable-libjpeg-turbo
