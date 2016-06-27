@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 539.37778 56.128083"
+   height="15.840592mm"
+   width="152.2244mm"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="cdlogo.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     id="namedview4208"
+     showgrid="false"
+     inkscape:zoom="3.5559492"
+     inkscape:cx="269.68889"
+     inkscape:cy="28.064042"
+     inkscape:window-x="0"
+     inkscape:window-y="35"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(100.56921,-53.761793)"
+     id="layer1">
+    <flowRoot
+       transform="translate(0.535714,0.625)"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot3336"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3338"><rect
+           y="37.158897"
+           x="-104.04572"
+           height="233.34525"
+           width="1250.5688"
+           id="rect3340" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:60px;font-family:Meta;-inkscape-font-specification:'Meta Bold';fill:#4d4e53;fill-opacity:1"
+         id="flowPara3342">mozilla</flowPara><flowPara
+         id="flowPara4156"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:60px;font-family:Meta;-inkscape-font-specification:'Meta Bold'" /></flowRoot>    <text
+       id="text3346"
+       y="598.80371"
+       x="-508.10672"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="598.80371"
+         x="-508.10672"
+         id="tspan3348" /></text>
+    <rect
+       y="58.877178"
+       x="88.34774"
+       height="51.012699"
+       width="2.0203052"
+       id="rect3354"
+       style="fill:#4d4e53;fill-opacity:1;stroke:none" />
+    <flowRoot
+       transform="translate(0,-0.75836618)"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot4158"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4160"><rect
+           y="60.89748"
+           x="97.479721"
+           height="48.992405"
+           width="357.0889"
+           id="rect4162" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Light';fill:#4d4e53;fill-opacity:1"
+         id="flowPara4164">Connected Devices</flowPara></flowRoot>  </g>
+</svg>
