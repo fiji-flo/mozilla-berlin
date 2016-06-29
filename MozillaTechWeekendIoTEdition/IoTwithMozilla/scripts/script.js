@@ -103,7 +103,7 @@
 
   function isListMode() {
     // Should use `URLSearchParams` but modern browser support is poor.
-    return url.search.indexOf('?full') !== -1 || url.search.indexOf('&full') !== -1;
+    return !(url.search.indexOf('?full') !== -1 || url.search.indexOf('&full') !== -1);
   }
 
   function normalizeSlideNumber(slideNumber) {
@@ -250,21 +250,6 @@
     }
   }, false);
 
-  window.addEventListener('popstate', function(e) {
-    if (isListMode()) {
-      enterListMode();
-      scrollToSlide(getCurrentSlideNumber());
-    } else {
-      enterSlideMode();
-    }
-  }, false);
-
-  window.addEventListener('resize', function(e) {
-    if (!isListMode()) {
-      applyTransform(getTransform());
-    }
-  }, false);
-
   document.addEventListener('keydown', function(e) {
     if (!keysalive) {
       return;
@@ -357,29 +342,6 @@
     }
   }, false);
 
-  document.addEventListener('click', dispatchSingleSlideMode, false);
-  document.addEventListener('touchend', dispatchSingleSlideMode, false);
-
-  document.addEventListener('touchstart', function(e) {
-    if (!isListMode()) {
-      var currentSlideNumber = getCurrentSlideNumber(),
-        x = e.touches[0].pageX;
-      if (x > window.innerWidth / 2) {
-        currentSlideNumber++;
-      } else {
-        currentSlideNumber--;
-      }
-
-      goToSlide(currentSlideNumber);
-    }
-  }, false);
-
-  document.addEventListener('touchmove', function(e) {
-    if (!isListMode()) {
-      e.preventDefault();
-    }
-  }, false);
-
 }());
 
 function goFullScreen() {
@@ -400,29 +362,3 @@ function goFullScreen() {
     requestFullscreen(document.documentElement);
   }
 }
-
-var lang = 'en-US';
-try {
-  lang = new URL(window.location).searchParams.get('lang');
-} catch (ex) {
-  // searchParams isn't supported in all browsers
-}
-
-// Pre-selects the correct current language on the dropdown menu
-document.getElementById('langMenuId').value = lang;
-
-function changeLanguage() {
-  var langObj = document.getElementById('langMenuId');
-  document.documentElement.lang = langObj.value;
-
-  // Update the language code in the URL bar
-  try {
-    var url = new URL(window.location);
-    url.searchParams.set('lang', langObj.value);
-    history.replaceState({}, document.title, url);
-  } catch (ex) {
-    // This might not be supported in all browsers
-  }
-}
-
-changeLanguage();
