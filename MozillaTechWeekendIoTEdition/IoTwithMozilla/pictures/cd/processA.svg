@@ -627,9 +627,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
+     inkscape:zoom="1.979899"
      inkscape:cx="376.6401"
-     inkscape:cy="315.44497"
+     inkscape:cy="186.87354"
      inkscape:document-units="px"
      inkscape:current-layer="g4163"
      showgrid="false"
@@ -2940,33 +2940,34 @@
          y="10.0375"
          x="2.075"
          id="text6045-0"
-         style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-size:12.5px;font-family:'Fira Sans SemiBold';-inkscape-font-specification:FiraSans-SemiBoldItalic;writing-mode:lr-tb;fill:#59accc;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter8872)"
-         transform="matrix(0.8,0,0,-0.8,118.71726,203.94319)">
-        <tspan
-           id="tspan6047-0"
-           sodipodi:role="line"
-           y="10.0375"
-           x="2.075 8.7124996 15.974999 20.9625 24.6875 31.0875 34.150002 37.75 45.262501 52.037502 59.299999 62.362499 66.762497 71.75 79.0625 89.625 92.6875 98.700005 102.425 109.2 116.4625 121.45 125.175">Early idea from clearly</tspan>
-        <tspan
-           id="tspan6049-3"
-           sodipodi:role="line"
-           y="27.5375"
-           x="17.9 25.4125 32.1875 39.625 46.887497 53.662502 61.174999 64.237503 70.237495 75 79.987503 87.25 92.012497 98.787506 106.1375 109.7375">defned strategic</tspan>
-        <tspan
-           id="tspan6051-4"
-           sodipodi:role="line"
-           y="45.037498"
-           x="-0.40000001 6.8624997 11.85 18.625 25.887499 31.887501 34.950001 42.337498 49.112503 55.125 62.4375 73 79.775002 85.775002 88.837502 93.237503 100.55 106.56249 113.7625 119.7625 126.5375">areas becomes focused</tspan>
-        <tspan
-           id="tspan6075-8"
-           sodipodi:role="line"
-           x="2.075"
-           y="inf" />
+         style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Fira Sans SemiBold';-inkscape-font-specification:FiraSans-SemiBoldItalic;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#59accc;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter8872)"
+         transform="matrix(0.8,0,0,-0.8,176.31726,203.94319)"
+         sodipodi:linespacing="125%">
         <tspan
            id="tspan6081-8"
            sodipodi:role="line"
            x="2.075"
-           y="inf" />
+           y="10.0375">Early idea from clearly</tspan>
+        <tspan
+           sodipodi:role="line"
+           x="2.075"
+           y="25.6625"
+           id="tspan4850">defined strategic</tspan>
+        <tspan
+           sodipodi:role="line"
+           x="2.075"
+           y="41.287498"
+           id="tspan4852">areas becomes focused</tspan>
+        <tspan
+           sodipodi:role="line"
+           x="2.075"
+           y="56.912498"
+           id="tspan4854"></tspan>
+        <tspan
+           sodipodi:role="line"
+           x="2.075"
+           y="72.537498"
+           id="tspan4856" />
       </text>
       <text
          y="14.81625"
