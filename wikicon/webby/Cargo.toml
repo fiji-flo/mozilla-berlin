@@ -1,0 +1,8 @@
+[package]
+name = "webby"
+version = "0.1.0"
+authors = ["Florian Merz <flomerz@gmail.com>"]
+
+[dependencies]
+rocket = "0.3.2"
+rocket_codegen = "0.3.2"
