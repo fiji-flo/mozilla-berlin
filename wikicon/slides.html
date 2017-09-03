@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mozilla Communities im Wandel</title>
+        <meta charset="utf-8">
+        <style>
+         @import url('https://fonts.googleapis.com/css?family=Zilla+Slab');
+         @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+         @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+         body { font-family: 'Droid Serif'; }
+         h1, h2, h3 {
+             font-family: 'Zilla Slab';
+             font-weight: normal;
+         }
+         .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+         .mozilla {
+             font-family: 'Zilla Slab';
+             color: white;
+             background-color: black;
+             font-weight: 700;
+             background-clip: border-box;
+             background-origin: padding-box;
+             padding: 0 0.2em;
+         }
+         .mozilla::after {
+             content: "moz://a";
+         }
+         a {
+             text-decoration: none;
+             color: #558194;
+         }
+        </style>
+    </head>
+    <body>
+        <textarea id="source">
+###SLIDES###
+        </textarea>
+        <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+        </script>
+        <script>
+         const slideshow = remark.create({ ratio: "16:9" });
+        </script>
+    </body>
+</html>
