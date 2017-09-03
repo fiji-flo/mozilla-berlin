@@ -13,7 +13,7 @@ web, the platform for our modern digital culture.
 ## Description
 
 This talk gives an introduction into the Mozilla Community. How we are organized,
-structured and financed. What drives us and what do we do.
+structured and financed. What drives us and what we do.
 
 Mozilla is well known for Firefox, but not so much for the community that drives
 us. We call ourselves [Mozillians](https://mozillians.org) and contribute in
