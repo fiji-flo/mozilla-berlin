@@ -9,9 +9,9 @@ Florian Merz
 # Überblick
 
 * Was ist .mozilla[]?
-* In welchen Bereichen ist die Communitiy aktiv
-* Die .mozilla[] Communitiy
-  * Regionale Communities
+* In welchen Bereichen ist die Community aktiv
+* Die .mozilla[] Community
+  * Lokale Communities
   * Das Reps Programm
   * Campus Clubs
   * Mozilla Festival
@@ -34,7 +34,7 @@ Einfluss, Sicherheit und Unabhängigkeit besitzt.
 ---
 # Mozilla's drei Säulen
 
-* [Mozilla Communitiy](https://www.mozilla.org/de/contribute/)
+* [Mozilla Community](https://www.mozilla.org/de/contribute/)
   * Eine globale Community aus Mitmachern (Contributors) am Mozilla Projekt.
   * Wir nennen uns Mozillans und verfolgen gemeinsam Mozilla's Mission.
 --
@@ -106,10 +106,33 @@ Wer lust hat zu Mozilla's Mission bezutragen kann einfach mit machen:
 * [Spende!](https://donate.mozilla.org/de)
 
 ---
-
 # Aber wir haben auch ein wenig Struktur
 
-* Regionale Communities
+* Lokale Communities
 * Das Reps Programm
 * Campus Clubs
 * Mozilla Festival
+
+---
+background-image: url(yearbook.png)
+background-position: center
+background-repeat: no-repeat
+background-size: cover
+
+class: middle center
+# .black[Lokale Communities]
+## .black[Jahrbuch 2016]
+
+---
+background-image: url(Eu-gathering-2016.jpg)
+background-position: center
+background-repeat: no-repeat
+background-size: cover
+
+class: middle center
+# .black[Europäisches Community Treffen]
+## .black[Berlin 2016]
+
+---
+class: center middle
+![Mozilla Reps](reps.png)
