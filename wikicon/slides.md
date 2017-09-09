@@ -9,7 +9,7 @@ Florian Merz
 # Überblick
 
 * Was ist .mozilla[]?
-* In welchen Bereichen ist die Community aktiv
+* In welchen Bereichen ist die Community aktiv?
 * Die Mozilla Community
   * Lokale Communities
   * Das Reps Programm
@@ -23,7 +23,7 @@ class: center middle
 # .mozilla[]: Wer, wie, was, warum.
 
 ---
-# Mozilla's Mission
+# Mozillas Mission
 
 Unsere Mission besteht darin, dafür zu sorgen, dass das Internet eine weltweite
 öffentliche und für alle zugängliche Ressource ist. Ein Internet, für das
@@ -32,28 +32,28 @@ Einfluss, Sicherheit und Unabhängigkeit besitzt.
 ([Quelle](https://www.mozilla.org/de/mission/))
 
 ---
-# Mozilla's drei Säulen
+# Mozillas drei Säulen
 
 * [Mozilla Community](https://www.mozilla.org/de/contribute/)
   * Eine globale Community aus Mitmachern (Contributors) am Mozilla Projekt.
-  * Wir nennen uns Mozillans und verfolgen gemeinsam Mozilla's Mission.
+  * Wir nennen uns Mozillans und verfolgen gemeinsam Mozillas Mission.
 --
 
 * [Mozilla Foundation](https://www.mozilla.org/de/foundation/)
   * Die Non-Profit-Oganisation hinter dem Mozilla Projekt.
   * Kümmert sich um die Agenda, politische Projekte und verwaltet die Marke Mozilla.
-  * Treibt eigene Prjekte voran, z.b. Webliteracy.
+  * Treibt eigene Projekte voran, z.b. Webkompetenz.
 --
 
 * [Mozilla Corporation](https://www.mozilla.org/en-US/foundation/moco/)
   * Gehört zu 100% der Mozilla Foundation.
-  * Beschäfitgt die Mehrheit der Mozilla-Mitarbeiter.
+  * Beschäftigt die Mehrheit der Mozilla-Mitarbeiter.
 
 ---
 # Mozilla Foundation
 
 Drei Progammschwerpunkte:
-* Themen setzten:
+* Themen setzen:
   * Datenschutz und Sicherheit
   * Offene Innovation
   * Dezentralisierung
@@ -83,11 +83,11 @@ class: middle center
 ---
 # Aufgabenbereiche
 
-* Codebeiträgen zu Firefox und anderen Mozilla Projekten
+* Codebeiträge zu Firefox und anderen Mozilla Projekten
 * Vermitteln digitaler Kompetenz
-* Übersetzung
+* Übersetzungen
 * Organisieren von Befürworterkampagnen
-* Schreiben der meistverlinkten Web-Entwickler-Site der Welt
+* Schreiben der meistverlinkten Web-Entwickler-Site der Welt (MDN)
 
 ---
 class: center middle
@@ -96,12 +96,12 @@ class: center middle
 ---
 # Jeder kann ein Mozillian sein!
 
-Wer lust hat zu Mozilla's Mission bezutragen kann einfach mit machen:
+Wer Lust hat zu Mozillas Mission bezutragen kann einfach mit machen:
 
-* Organisier ein Veranstaltung: Veranstaltungsvorlagen gibt es bei
+* Organisiere eine Veranstaltung: Veranstaltungsvorlagen gibt es unter
   [activate.mozilla.community](https://activate.mozilla.community/)
 * Besuche: [WasKannIchFürMozillaTun?](https://whatcanidoformozilla.org/?lang=de)
-* Rede mit Freunden, Familie und Bekannten über Mozilla's Ziele und warum wir uns
+* Rede mit Freunden, Familie und Bekannten über Mozillas Ziele und warum wir uns
   für ein offenes Internet einsetzen müssen.
 * [Spende!](https://donate.mozilla.org/de)
 
@@ -140,7 +140,7 @@ class: center middle
 ---
 # Das Mozilla Reps Programm (ReMo)
 
-Ermöglicht seit 2011 Mozillians offizielle Vertreter Mozilla's zu sein.
+Ermöglicht seit 2011 Mozillians offizielle Vertreter Mozillas zu sein.
 
 * Zugang zu internen Informationen und Materialien (NDA)
 * Ein starkes Netzwerk aus sehr aktiven Mozillians
@@ -150,8 +150,8 @@ Ermöglicht seit 2011 Mozillians offizielle Vertreter Mozilla's zu sein.
 
 Aufgaben:
 
-* Mozilla in ihrer Region repäsentieren
-* Mozilla's Mission verbreiten
+* Mozilla in ihrer Region repräsentieren
+* Mozillas Mission verbreiten
 * Lokale Communities unterstützen und stärken
 * Neue Mitmacher suchen und fördern
 
@@ -189,18 +189,18 @@ class: middle center
 ---
 # TechSpeakers (seit 2015)
 
-TechSpeakers ist ein Programm das die Entwicklerwahrnemung und Rezeption des
+TechSpeakers ist ein Programm das die Entwicklerwahrnehmung und Rezeption des
 Open Web, Firefox und Mozillas erhöhen soll.
 
-Hierzu soll:
+Hierzu sollen:
 
-* Eine Basis an qualifizierten und gut informoierten freiwilligen Referenten
-  herangezogen werden.
-* Unstützende Trainings und Vortragsmaterialien angeboten werden.
+* Eine Basis an qualifizierten und gut informierten freiwilligen Referenten
+  aufgebaut werden.
+* Unterstützende Trainings und Vortragsmaterialien angeboten werden.
 
 Um:
 
-* Um zum richtigen Zeitpunkt aktuelle Themen auf regionalen Veranstaltungen zu
+* Zum richtigen Zeitpunkt aktuelle Themen auf regionalen Veranstaltungen zu
   präsentieren.
 
 ---
@@ -218,8 +218,8 @@ class: middle center
 
 2016 startete Mozilla das Campus Clubs Programm.
 
-Es zielt darauf ab Studierenden in sich in Mozillahochschulgruppen zu
-organisieren und so Mozilla's Mission voran zu treiben.
+Es zielt darauf ab Studierende in Mozillahochschulgruppen zu
+organisieren und so Mozillas Mission voran zu treiben.
 
 ---
 class: middle center
@@ -227,4 +227,64 @@ class: middle center
 ![MozFest](mozfest.jpg)
 
 ---
+class: middle center
+
+![MozFest](mozfest_people.jpg)
+
+---
+class: middle center
+
+![MozFest](mozfest_flo.jpg)
+
+---
 # .mozilla[] festival (MozFest)
+
+Ein Festival rund um das offene Internet.
+
+Jeden Oktober in London.
+
+* über 1600 Teilnehmer aus mehr als 50 Ländern
+* 325 Workshops und Sessions
+* Mehrere Spaces:
+  * Decentralization
+  * Digital Inclusion
+  * Open Innovation
+  * Privacy and Security
+  * Web Literacy
+  * Youth Zone
+
+---
+class: middle center
+
+## .black[Mozfest 2017]
+## .black[27\. \- 29\. Oktober Ravensbourne College, London]
+## [mozillafestival.org](https://mozillafestival.org/)
+
+---
+class: middle center
+
+# .black[all hands / work weeks]
+![london all hands](allhands_london.png)
+![hawaii all hands](allhands_hawaii.png)
+![sf all hands](allhands_sf.png)
+
+---
+# All Hands
+
+* 2 mal pro Jahr (Juni / Dezember)
+* Alle Mitarbeiter und eingeladene Freiwillige an einem Ort
+* Zentraler Bestandteil der Jahresplanung
+* Enge Zusammenarbeit zwischen Mitarbeitern und Freiwilligen
+
+---
+background-image: url(57.png)
+background-position: center
+background-repeat: no-repeat
+background-size: contain
+
+---
+class: middle center
+
+## Bilder:
+* [github.com/FirefoxUX](https://github.com/FirefoxUX)
+* [flickr.com/photos/mozfest/](https://www.flickr.com/photos/mozfest/)

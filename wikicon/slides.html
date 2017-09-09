@@ -8,14 +8,22 @@
          @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
          @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 
-         body { font-family: 'Droid Serif'; }
+         body {
+             font-family: 'Droid Serif';
+         }
          h1, h2, h3 {
              font-family: 'Zilla Slab';
-             font-weight: normal;
+             font-weight: 700;
          }
          img {
              max-width: 100%;
+             max-height: 100%;
          }
+
+         .remark-slide-content p,li,lu,a {
+             font-size: 1.8rem;
+         }
+
          .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
          .mozilla {
              font-family: 'Zilla Slab';
@@ -28,6 +36,7 @@
          }
          .mozilla::after {
              content: "moz://a";
+             font-size: 1em;
          }
          a {
              text-decoration: none;
