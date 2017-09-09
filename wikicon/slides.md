@@ -10,7 +10,7 @@ Florian Merz
 
 * Was ist .mozilla[]?
 * In welchen Bereichen ist die Community aktiv
-* Die .mozilla[] Community
+* Die Mozilla Community
   * Lokale Communities
   * Das Reps Programm
   * Campus Clubs
@@ -136,3 +136,95 @@ class: middle center
 ---
 class: center middle
 ![Mozilla Reps](reps.png)
+
+---
+# Das Mozilla Reps Programm (ReMo)
+
+Ermöglicht seit 2011 Mozillians offizielle Vertreter Mozilla's zu sein.
+
+* Zugang zu internen Informationen und Materialien (NDA)
+* Ein starkes Netzwerk aus sehr aktiven Mozillians
+* Materialien und Budget für eigene Veranstaltungen
+* Mittel um Veranstaltungen zu besuchen
+* Einfacher Zugang zu Mozillamitarbeitern
+
+Aufgaben:
+
+* Mozilla in ihrer Region repäsentieren
+* Mozilla's Mission verbreiten
+* Lokale Communities unterstützen und stärken
+* Neue Mitmacher suchen und fördern
+
+---
+# Mozilla Reps: Struktur
+
+.twocols[
+.col50[
+Organe:
+* Rat (council)
+  * 7 Communitymitglieder
+  * 2 Mitarbeiter
+* Mentoren
+* Reps
+]
+.col50[
+![Reps Struktur](reps_org.png)
+]
+]
+
+---
+# Mozilla Reps: Kommunikation und Resourcen
+
+* Reports und Einstiegspunkt: [reps.mozilla.org](https://reps.mozilla.org/)
+* Discourse: [discourse.mozilla.org/c/reps](https://discourse.mozilla.org/c/reps)
+* Air Mozilla (auch interne Videos): [air.mozilla.org](https://air.mozilla.org/)
+* ReMo Wiki Seiten: [wiki.mozilla.org/ReMo](https://wiki.mozilla.org/ReMo)
+* Weekly ReMo Call
+
+---
+class: middle center
+
+![TechSpeakers](MozTechSpeakers.png)
+
+---
+# TechSpeakers (seit 2015)
+
+TechSpeakers ist ein Programm das die Entwicklerwahrnemung und Rezeption des
+Open Web, Firefox und Mozillas erhöhen soll.
+
+Hierzu soll:
+
+* Eine Basis an qualifizierten und gut informoierten freiwilligen Referenten
+  herangezogen werden.
+* Unstützende Trainings und Vortragsmaterialien angeboten werden.
+
+Um:
+
+* Um zum richtigen Zeitpunkt aktuelle Themen auf regionalen Veranstaltungen zu
+  präsentieren.
+
+---
+background-image: url(clubs.svg)
+background-position: center
+background-repeat: no-repeat
+background-size: contain
+
+class: middle center
+
+#.black[Mozilla Campus Clubs]
+
+---
+# Mozilla Campus Clubs
+
+2016 startete Mozilla das Campus Clubs Programm.
+
+Es zielt darauf ab Studierenden in sich in Mozillahochschulgruppen zu
+organisieren und so Mozilla's Mission voran zu treiben.
+
+---
+class: middle center
+
+![MozFest](mozfest.jpg)
+
+---
+# .mozilla[] festival (MozFest)
