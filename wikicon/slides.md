@@ -15,7 +15,7 @@ Florian Merz
   * Das Reps Programm
   * Campus Clubs
   * Mozilla Festival
-* Zusammenarbeit mit Mitarbeitern
+* Hand in Hand mit Mitarbeitern
 
 ---
 class: center middle
@@ -55,7 +55,7 @@ Einfluss, Sicherheit und Unabhängigkeit besitzt.
 Drei Progammschwerpunkte:
 * Themen setzen:
   * Datenschutz und Sicherheit
-  * Offene Innovation
+  * Open Innovation
   * Dezentralisierung
   * Webkompetenz
   * Digitale Inklusion
@@ -71,8 +71,11 @@ background-repeat: no-repeat
 # .white[Mozilla Corporation]
 
 .split[
-* .white[Rebooting Firefox.]
-* .white[Firefox 57 wird das Internet zurück erobern.]
+* .white[Firefox 57]
+* .white[Rust & Servo]
+* .white[WebVR & WebAR]
+* .white[Firefox Klar]
+* .white[– vieles mehr]
 ]
 
 ---
@@ -100,10 +103,10 @@ Wer Lust hat zu Mozillas Mission bezutragen kann einfach mit machen:
 
 * Organisiere eine Veranstaltung: Veranstaltungsvorlagen gibt es unter
   [activate.mozilla.community](https://activate.mozilla.community/)
-* Besuche: [WasKannIchFürMozillaTun?](https://whatcanidoformozilla.org/?lang=de)
+* Besuche: [whatcanidoformozilla.og](https://whatcanidoformozilla.org/?lang=de)
 * Rede mit Freunden, Familie und Bekannten über Mozillas Ziele und warum wir uns
   für ein offenes Internet einsetzen müssen.
-* [Spende!](https://donate.mozilla.org/de)
+* Spende: [donate.mozilla.org](https://donate.mozilla.org/de)
 
 ---
 # Aber wir haben auch ein wenig Struktur
@@ -263,6 +266,11 @@ class: middle center
 ---
 class: middle center
 
+# .black[Hand in Hand mit Mitarbeitern]
+
+---
+class: middle center
+
 # .black[all hands / work weeks]
 ![london all hands](allhands_london.png)
 ![hawaii all hands](allhands_hawaii.png)
@@ -281,6 +289,11 @@ background-image: url(57.png)
 background-position: center
 background-repeat: no-repeat
 background-size: contain
+
+---
+class: middle center
+
+# .black[Fragen?]
 
 ---
 class: middle center
